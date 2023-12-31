@@ -190,3 +190,116 @@
     margin-top : 17px;
 
 }
+
+/* For the second nav bar */
+
+/* For humburger icon and All */
+
+.second-nav-bar {
+    height : 39px;
+    background-color : #222f3d;
+    color : white;
+    display: flex;
+    align-items: center;
+}
+
+.burgericon-all {
+    margin-left: 10px;
+    display:flex;
+}
+
+.all-text {
+    font-size : 14px;
+    font-weight: 700;
+    color: white;
+    margin-left: 6px;
+}
+
+/* For options in second nav bar */
+
+.second-nav-options{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    width : 100%;
+    font-size: 14px;
+}
+
+/* For Shop winter sale text */
+
+.second-nav-shopsale{
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* for the big background image */
+
+.main-image {
+    background-image: url("images/mainImage.jpg");
+    height : 300px;
+    width : 1500px;
+    background-size : cover;
+}
+
+/* for shop items in boxes */
+
+.items-in-boxes {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Box1 {
+    margin-top : 20px;
+}
+
+.box1-image {
+    background-image: url("images/box1.jpg");
+    height : 300px;
+    width : 200px;
+    background-size : cover;
+    margin-top: 20px;
+
+}
+
+.deal {
+    text-align: center;   
+    justify-content: space-evenly;
+    margin-top: 6px;
+    display : flex;
+}
+
+.deal-info {
+    background-color: #cc0c39;
+    width : 50%;
+    color:white;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 12px;
+    border-radius: 2px;
+    height : 25 px;
+}
+
+.deal-timer {
+    width:50%;
+    color: #cc0c39;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.item-info {
+    margin-top: 10px;
+    font-size : 13px;
+}
+
+.see-all-deals {
+    font-size: 13px;
+    margin-top: 15px;
+    color: #007185
+}
