@@ -279,6 +279,10 @@
     font-size: 13px;
 }
 
+.box-content p:hover{
+    color: #cc0c39;
+}
+
 .box-image {
     background-size : cover;
     height : 300px;
